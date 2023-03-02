@@ -1,0 +1,18 @@
+/*afecta a todo el html por eso la etiqueta html*/
+html{
+    font-size: 16px;/*px quiere decir "pixeles": el tamaño de la fuente base ahora es de 10 pixeles de altura*/
+    font-family: "Open Sans", sans-serif;/* este debe ser el resto del resultado que obtuviste en google fonts*/
+}
+
+/*afecta a las etiquetas h4 con un tamaño de 16 y centrado*/
+h4{
+    font-size:16px;
+    text-align:center;
+}
+
+/*afecta a las etiquetas p con un tamaño de 16, espacio entre linea y linea de 2 y espacio entre caracter y caracter de 10*/
+p{
+    font-size:16px;
+    line-height:2;
+    letter-spacing:  10px;
+}
