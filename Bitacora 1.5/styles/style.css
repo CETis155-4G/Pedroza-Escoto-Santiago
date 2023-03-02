@@ -1,0 +1,98 @@
+/*Una disculpa por el titulo neon, lo dijo despues de que esta version y la anterior salieran*/
+
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: 'Roboto', sans-serif; /* Fuente utilizada para el texto */
+  color: #fff; /* Color de texto */
+  background-color: #0f0f0f; /* Color de fondo */
+  margin: 0; /* Margen exterior */
+  padding: 0; /* Espacio de relleno */
+}
+
+/* Contenedor principal de la página */
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Espacio de relleno dentro del contenedor */
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: 60px; /* Tamaño de fuente */
+  margin-bottom: 50px; /* Espacio inferior */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  letter-spacing: 2px; /* Espacio entre letras */
+  font-weight: 700; /* Grosor de fuente */
+  color: #fff; /* Color del texto */
+  text-shadow: 0 0 10px #1fd1f9, 0 0 20px #1fd1f9, 0 0 30px #1fd1f9, 0 0 40px #1fd1f9; /* Sombra del texto */
+  animation: neon-breath 2s ease-in-out infinite alternate; /* Animación de la sombra del texto */
+}
+
+/* Animación para la sombra del texto */
+@keyframes neon-breath {
+  from {
+    text-shadow: 0 0 10px #1fd1f9, 0 0 20px #1fd1f9, 0 0 30px #1fd1f9, 0 0 40px #1fd1f9;
+  }
+  to {
+    text-shadow: 0 0 15px #1fd1f9, 0 0 25px #1fd1f9, 0 0 35px #1fd1f9, 0 0 45px #1fd1f9;
+  }
+}
+  
+/* Definición de estilo para los párrafos */
+p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Definición de estilo para los bloques de código */
+code {
+  background-color: #1fd1f9;
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: #0f0f0f;
+}
+
+/* Definición de estilo para los enlaces */
+a {
+  color: #1fd1f9;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+  
+/* Cambia el color del texto al pasar el ratón por encima del enlace */
+a:hover {
+  color: #fff;
+}
+  
+/* Estilo de botón */
+button {
+  background-color: #1fd1f9;
+  color: #0f0f0f;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-right: 10px;
+}
+  
+/* Cambia el color de fondo y el texto al pasar el ratón por encima del botón */
+button:hover {
+  background-color: #fff;
+  color: #1fd1f9;
+}
+
+/* Quita el contorno al hacer foco en el botón */
+button:focus {
+  outline: none;
+}
+  
+/* Añade una animación de escalado al pasar el ratón por encima de la imagen */
+img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+}
