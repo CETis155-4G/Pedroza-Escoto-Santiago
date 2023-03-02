@@ -1,0 +1,105 @@
+/* Estilos generales para todos los elementos */
+* {
+	box-sizing: border-box; /* El tamaño total incluirá borde y relleno */
+	font-family: Arial, sans-serif; /* Fuente Arial si está disponible, si no cualquier sans-serif */
+	margin: 0; /* Elimina cualquier margen predeterminado */
+	padding: 0; /* Elimina cualquier relleno predeterminado */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+	background-color: #fff; /* Fondo blanco */
+	color: #333; /* Texto de color gris oscuro */
+	font-size: 16px; /* Tamaño de la fuente 16px */
+	line-height: 1.5; /* Altura de línea 1.5 */
+}
+
+/* Estilos para el encabezado */
+header {
+	background-color: #3CB371; /* Fondo verde */
+	color: #fff; /* Texto de color blanco */
+	padding: 20px; /* Relleno de 20px en todos los lados */
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+	display: flex; /* Elementos flexibles */
+	justify-content: flex-end; /* Justifica los elementos al final */
+	list-style: none; /* Elimina la viñeta de la lista */
+	margin-top: 10px; /* Margen superior de 10px */
+}
+
+nav ul li {
+	margin: 0 10px; /* Margen izquierdo y derecho de 10px */
+}
+
+nav ul li a {
+	color: #fff; /* Enlaces de color blanco */
+	text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para el área principal (hero) */
+.hero {
+	text-align: center; /* Centra el texto */
+	margin-top: 50px; /* Margen superior de 50px */
+}
+
+.hero h1 {
+	font-size: 48px; /* Tamaño de la fuente 48px */
+	margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+.hero p {
+	font-size: 24px; /* Tamaño de la fuente 24px */
+	margin-bottom: 40px; /* Margen inferior de 40px */
+}
+
+/* Estilos para botones */
+.btn {
+	background-color: #fff; /* Fondo blanco */
+	border: none; /* Sin borde */
+	color: #3CB371; /* Texto de color verde */
+	padding: 10px 20px; /* Relleno de 10px arriba y abajo, 20px izquierda y derecha */
+	text-decoration: none; /* Sin subrayado */
+}
+
+.btn:hover {
+	background-color: #3CB371; /* Fondo verde */
+	color: #fff; /* Texto de color blanco */
+}
+
+/* Estilos para el área principal (main) */
+main {
+	max-width: 1200px; /* Ancho máximo de 1200px */
+	margin: 0 auto; /* Centra el área principal en la página */
+	padding: 50px; /* Relleno de 50px en todos los lados */
+}
+
+/* Estilos para secciones */
+section {
+	margin-bottom: 50px; /* Margen inferior de 50px */
+}
+
+section h2 {
+	font-size: 36px; /* Tamaño de la fuente 36px */
+	margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+section p {
+	font-size: 18px; /* Tamaño de la fuente 18px */
+	line-height: 1.5; /* Altura de línea*/
+	margin-bottom: 20px;/*margen inferior de 20px*/
+}
+
+/* Estilo para las listas */
+ul {
+	margin-left: 20px; /* Margen izquierdo de 10px */
+}
+	
+/* Estilo para el pie de pagina*/
+footer {
+	background-color: #3CB371; /* Fondo verde */
+	color: #fff; /* Texto de color blanco */
+	padding: 20px; /* Relleno de 20px en todos los lados */
+	text-align: center; /* Alinea el texto al centro*/
+}
